@@ -1,0 +1,169 @@
+body{
+    background-color:rgb(92, 86, 8);	
+    color: white;	
+    }
+    #all{
+    
+    }
+    .title{
+        width:100%;
+        text-align:center;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom:20px;
+        padding: 5px 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .inputs{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    
+    }
+    .all_list{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .inputs>.all_list input{
+        font-size: 16px;
+        width: 120%;
+        padding: 0 2px;
+    }
+    
+    
+    .wraper_list{
+    position:absolute;
+    transform:translate(-12%, 47%);
+    z-index: 100;
+    }
+    .wraper_list>ul{
+    list-style:none;
+    
+    }
+    .wraper_list>ul>li{
+    background-color:white;
+    letter-spacing:1px;
+    padding:3px 2px;
+    width:300px;
+    color: black;
+    }
+    .wraper_list>ul>li>span{
+        font-size: 11px;
+    }
+    .wraper_list>ul>li:nth-child(2n+1){
+    background-color:#DEDFDB;
+    }
+    .wraper_list>ul>li:hover{
+    background-color:brown;
+    color: white;
+    cursor:pointer;
+    }
+    .wraper_list>ul>.marker_enter:nth-child(1n){
+     background-color:brown;
+     color: white;   
+    }
+    /* ////////////////////////// */
+    .sluzby{
+        position: relative;
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 0;
+        font-size: 17px;
+        border-bottom: 1px solid white;
+        
+    }
+    .sluzby>.tyt_teryrorium{
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        position: absolute;
+        margin-bottom:5%;
+        }
+    .sluzby>.tyt_teryrorium>div{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    }
+    
+    .sluzby>table{
+        margin:5% 0;
+        border-collapse: collapse;
+        }
+        @media all and (max-width:860px){ 
+            .sluzby>table{
+        margin:15% 0;
+        }
+    }
+        @media all and (max-width:600px){ 
+                .sluzby>table{
+            margin:25% 0;
+            }
+        }
+        @media all and (max-width:500px){ 
+                .sluzby>table{
+            margin:35% 0;
+            }
+        }
+        @media all and (max-width:400px){ 
+                .sluzby>table{
+            margin:45% 0;
+            }
+        }
+    .sluzby>table>tbody>tr:nth-child(1) button{
+        background-color: cadetblue;
+        }
+    .sluzby>table>tbody>tr:nth-child(2) button{
+        background-color: rgb(116, 32, 17);
+        }
+    .sluzby>table>tbody>tr:nth-child(3) button{
+        background-color: rgb(41, 33, 111);
+        }	
+        .sluzby>table>tbody>tr>td>button{
+        color: white;
+        padding:5px 5px;
+        margin:1px;	
+        letter-spacing: 1px;
+        cursor:pointer;
+        }
+        
+ /* /////////////////////////////        */
+ #bledy{
+     font-size: 12px;
+     letter-spacing: 1px;
+ }
+ #bledy th{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+#bledy tbody tr td>a:hover{
+    color: white;
+}
+ #bledy tr:nth-child(2n+1){
+    background-color:rgb(29, 36, 9);
+    }
+.footer{
+    border:1px solid white;
+    width:70%;
+    position: absolute;
+    left:50%;
+ 
+    transform: translateX(-50%);
+    margin-top:50px;
+    font-size: 12px;
+} 
+
+  .footer p{
+   position: relative;
+   left: 50%;
+   width:70%;
+   transform: translateX(-50%);
+  }
+  .footer div>ul>li>a{color: rgb(171, 133, 214);
+   font-size: 16px;
+  }
